@@ -1,0 +1,249 @@
+#Upload Data
+
+Position_Players$LENGTH_OF_AT_BAT_PITCHES <- as.numeric(Position_Players$LENGTH_OF_AT_BAT_PITCHES)
+
+#Average Grades By Division
+CONFAVG<-aggregate(Position_Players[,38:47],list(Position_Players$DIVISION),mean,na.rm=TRUE)
+head(CONFAVG,10)
+length(which(Position_Players$DIVISION == "1"))
+length(which(Position_Players$DIVISION == "2"))
+length(which(Position_Players$DIVISION == "3"))
+length(which(Position_Players$DIVISION == "HS"))
+length(which(Position_Players$DIVISION == "JC"))
+length(which(Position_Players$DIVISION == "NAIA"))
+
+a <-subset(Pitchers, Pitchers$DIVISION == "JC")
+b <-subset(Position_Players, Position_Players$DIVISION == "JC")
+
+plot(a$CUM_GRADE_PRES, a$CUM_GRADE_FUT)
+plot(b$CUM_GRADE_PRES, b$CUM_GRADE_FUT)
+
+Position_Players$D1 <- NA
+Position_Players$D1 <- ifelse(Position_Players$DIVISION == "1", 1, 0)
+
+
+
+#Division 1
+
+D1<-subset(Position_Players, Position_Players$DIVISION==1)
+View(D1)
+
+#Scout averages for their D1 reports
+SCOUTD1AVG<-aggregate(D1[,38:47],list(D1$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTD1AVG)
+
+#D1 average grades
+D1BASELINE<-subset(CONFAVG,CONFAVG$Group.1==1)
+View(D1BASELINE)
+
+#Adjustements needed to bring scouts' average D1 grades to overall D1 average (I know there has to be a simpler way to do this)
+#This is based off of scoutid instead of name just incase they copied and pasted their id instead of using vlookup
+D1ADJ1<-SCOUTD1AVG[,2]-D1BASELINE[1,2]
+D1ADJ2<-SCOUTD1AVG[,3]-D1BASELINE[1,3]
+D1ADJ3<-SCOUTD1AVG[,4]-D1BASELINE[1,4]
+D1ADJ4<-SCOUTD1AVG[,5]-D1BASELINE[1,5]
+D1ADJ5<-SCOUTD1AVG[,6]-D1BASELINE[1,6]
+D1ADJ6<-SCOUTD1AVG[,7]-D1BASELINE[1,7]
+D1ADJ7<-SCOUTD1AVG[,8]-D1BASELINE[1,8]
+D1ADJ8<-SCOUTD1AVG[,9]-D1BASELINE[1,9]
+D1ADJ9<-SCOUTD1AVG[,10]-D1BASELINE[1,10]
+D1ADJ10<-SCOUTD1AVG[,11]-D1BASELINE[1,11]
+D1ADJUSTMENTS<-cbind(SCOUTD1AVG$Group.1,-D1ADJ1,-D1ADJ2,-D1ADJ3,-D1ADJ4,-D1ADJ5,-D1ADJ6,-D1ADJ7,-D1ADJ8,-D1ADJ9,-D1ADJ10)
+colnames(D1ADJUSTMENTS)<-colnames(D1BASELINE)
+colnames(D1ADJUSTMENTS)[1]<-"SCOUTID"
+View(D1ADJUSTMENTS)
+#So for a scout with a 20.54 for hit tool means their average hit tool grade is 20.54 below the average CBBSN D1 hit tool and 20.54 would 
+#have to be added to their average score to adjust it to the CBBSN average.
+
+
+#Division 2
+
+D2<-subset(Position_Players, Position_Players$DIVISION==2)
+View(D2)
+
+#Scout averages for their D2 reports
+SCOUTD2AVG<-aggregate(D2[,38:47],list(D2$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTD2AVG)
+
+#D2 average grades
+D2BASELINE<-subset(CONFAVG,CONFAVG$Group.1==2)
+View(D2BASELINE)
+
+#Adjustements needed to bring scouts' average D2 grades to overall D2 average
+D2ADJ1<-SCOUTD2AVG[,2]-D2BASELINE[1,2]
+D2ADJ2<-SCOUTD2AVG[,3]-D2BASELINE[1,3]
+D2ADJ3<-SCOUTD2AVG[,4]-D2BASELINE[1,4]
+D2ADJ4<-SCOUTD2AVG[,5]-D2BASELINE[1,5]
+D2ADJ5<-SCOUTD2AVG[,6]-D2BASELINE[1,6]
+D2ADJ6<-SCOUTD2AVG[,7]-D2BASELINE[1,7]
+D2ADJ7<-SCOUTD2AVG[,8]-D2BASELINE[1,8]
+D2ADJ8<-SCOUTD2AVG[,9]-D2BASELINE[1,9]
+D2ADJ9<-SCOUTD2AVG[,10]-D2BASELINE[1,10]
+D2ADJ10<-SCOUTD2AVG[,11]-D2BASELINE[1,11]
+D2ADJUSTMENTS<-cbind(SCOUTD2AVG$Group.1,-D2ADJ1,-D2ADJ2,-D2ADJ3,-D2ADJ4,-D2ADJ5,-D2ADJ6,-D2ADJ7,-D2ADJ8,-D2ADJ9,-D2ADJ10)
+colnames(D2ADJUSTMENTS)<-colnames(D2BASELINE)
+colnames(D2ADJUSTMENTS)[1]<-"SCOUTID"
+View(D2ADJUSTMENTS)
+
+
+#Division 3
+
+D3<-subset(Position_Players, Position_Players$DIVISION==3)
+View(D3)
+
+#Scout averages for their D3 reports
+SCOUTD3AVG<-aggregate(D3[,38:47],list(D3$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTD3AVG)
+
+#D3 average grades
+D3BASELINE<-subset(CONFAVG,CONFAVG$Group.1==3)
+View(D3BASELINE)
+
+#Adjustements needed to bring scouts' average D3 grades to overall D3 average
+D3ADJ1<-SCOUTD3AVG[,2]-D3BASELINE[1,2]
+D3ADJ2<-SCOUTD3AVG[,3]-D3BASELINE[1,3]
+D3ADJ3<-SCOUTD3AVG[,4]-D3BASELINE[1,4]
+D3ADJ4<-SCOUTD3AVG[,5]-D3BASELINE[1,5]
+D3ADJ5<-SCOUTD3AVG[,6]-D3BASELINE[1,6]
+D3ADJ6<-SCOUTD3AVG[,7]-D3BASELINE[1,7]
+D3ADJ7<-SCOUTD3AVG[,8]-D3BASELINE[1,8]
+D3ADJ8<-SCOUTD3AVG[,9]-D3BASELINE[1,9]
+D3ADJ9<-SCOUTD3AVG[,10]-D3BASELINE[1,10]
+D3ADJ10<-SCOUTD3AVG[,11]-D3BASELINE[1,11]
+D3ADJUSTMENTS<-cbind(SCOUTD3AVG$Group.1,-D3ADJ1,-D3ADJ2,-D3ADJ3,-D3ADJ4,-D3ADJ5,-D3ADJ6,-D3ADJ7,-D3ADJ8,-D3ADJ9,-D3ADJ10)
+colnames(D3ADJUSTMENTS)<-colnames(D3BASELINE)
+colnames(D3ADJUSTMENTS)[1]<-"SCOUTID"
+View(D3ADJUSTMENTS)
+
+
+#Junior College
+
+JC<-subset(Position_Players, Position_Players$DIVISION=="JC")
+View(JC)
+
+#Scout averages for their JuCo reports
+SCOUTJCAVG<-aggregate(JC[,38:47],list(JC$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTJCAVG)
+
+#JuCo average grades
+JCBASELINE<-subset(CONFAVG,CONFAVG$Group.1=="JC")
+View(JCBASELINE)
+
+#Adjustments needed to bring scouts' average JuCo grades to overall JuCo average
+JCADJ1<-SCOUTJCAVG[,2]-JCBASELINE[1,2]
+JCADJ2<-SCOUTJCAVG[,3]-JCBASELINE[1,3]
+JCADJ3<-SCOUTJCAVG[,4]-JCBASELINE[1,4]
+JCADJ4<-SCOUTJCAVG[,5]-JCBASELINE[1,5]
+JCADJ5<-SCOUTJCAVG[,6]-JCBASELINE[1,6]
+JCADJ6<-SCOUTJCAVG[,7]-JCBASELINE[1,7]
+JCADJ7<-SCOUTJCAVG[,8]-JCBASELINE[1,8]
+JCADJ8<-SCOUTJCAVG[,9]-JCBASELINE[1,9]
+JCADJ9<-SCOUTJCAVG[,10]-JCBASELINE[1,10]
+JCADJ10<-SCOUTJCAVG[,11]-JCBASELINE[1,11]
+JCADJUSTMENTS<-cbind(SCOUTJCAVG$Group.1,-JCADJ1,-JCADJ2,-JCADJ3,-JCADJ4,-JCADJ5,-JCADJ6,-JCADJ7,-JCADJ8,-JCADJ9,-JCADJ10)
+colnames(JCADJUSTMENTS)<-colnames(JCBASELINE)
+colnames(JCADJUSTMENTS)[1]<-"SCOUTID"
+View(JCADJUSTMENTS)
+
+
+#NAIA
+
+NAIA<-subset(Position_Players, Position_Players$DIVISION=="NAIA")
+View(NAIA)
+
+#Scout averages for their NAIA reports
+SCOUTNAIAAVG<-aggregate(NAIA[,38:47],list(NAIA$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTNAIAAVG)
+
+#NAIA average grades
+NAIABASELINE<-subset(CONFAVG,CONFAVG$Group.1=="NAIA")
+View(NAIABASELINE)
+
+#Adjustements needed to bring scouts' average NAIA grades to overall NAIA average
+NAIAADJ1<-SCOUTNAIAAVG[,2]-NAIABASELINE[1,2]
+NAIAADJ2<-SCOUTNAIAAVG[,3]-NAIABASELINE[1,3]
+NAIAADJ3<-SCOUTNAIAAVG[,4]-NAIABASELINE[1,4]
+NAIAADJ4<-SCOUTNAIAAVG[,5]-NAIABASELINE[1,5]
+NAIAADJ5<-SCOUTNAIAAVG[,6]-NAIABASELINE[1,6]
+NAIAADJ6<-SCOUTNAIAAVG[,7]-NAIABASELINE[1,7]
+NAIAADJ7<-SCOUTNAIAAVG[,8]-NAIABASELINE[1,8]
+NAIAADJ8<-SCOUTNAIAAVG[,9]-NAIABASELINE[1,9]
+NAIAADJ9<-SCOUTNAIAAVG[,10]-NAIABASELINE[1,10]
+NAIAADJ10<-SCOUTNAIAAVG[,11]-NAIABASELINE[1,11]
+NAIAADJUSTMENTS<-cbind(SCOUTNAIAAVG$Group.1,-NAIAADJ1,-NAIAADJ2,-NAIAADJ3,-NAIAADJ4,-NAIAADJ5,-NAIAADJ6,-NAIAADJ7,-NAIAADJ8,-NAIAADJ9,-NAIAADJ10)
+colnames(NAIAADJUSTMENTS)<-colnames(NAIABASELINE)
+colnames(NAIAADJUSTMENTS)[1]<-"SCOUTID"
+View(NAIAADJUSTMENTS)
+
+
+#High School
+
+HS<-subset(Position_Players, Position_Players$DIVISION=="HS")
+View(HS)
+
+#Scout averages for their HS reports
+SCOUTHSAVG<-aggregate(HS[,38:47],list(HS$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTHSAVG)
+
+#HS average grades
+HSBASELINE<-subset(CONFAVG,CONFAVG$Group.1=="HS")
+View(HSBASELINE)
+
+#Adjustements needed to bring scouts' average HS grades to overall HS average
+HSADJ1<-SCOUTHSAVG[,2]-HSBASELINE[1,2]
+HSADJ2<-SCOUTHSAVG[,3]-HSBASELINE[1,3]
+HSADJ3<-SCOUTHSAVG[,4]-HSBASELINE[1,4]
+HSADJ4<-SCOUTHSAVG[,5]-HSBASELINE[1,5]
+HSADJ5<-SCOUTHSAVG[,6]-HSBASELINE[1,6]
+HSADJ6<-SCOUTHSAVG[,7]-HSBASELINE[1,7]
+HSADJ7<-SCOUTHSAVG[,8]-HSBASELINE[1,8]
+HSADJ8<-SCOUTHSAVG[,9]-HSBASELINE[1,9]
+HSADJ9<-SCOUTHSAVG[,10]-HSBASELINE[1,10]
+HSADJ10<-SCOUTHSAVG[,11]-HSBASELINE[1,11]
+HSADJUSTMENTS<-cbind(SCOUTHSAVG$Group.1,-HSADJ1,-HSADJ2,-HSADJ3,-HSADJ4,-HSADJ5,-HSADJ6,-HSADJ7,-HSADJ8,-HSADJ9,-HSADJ10)
+colnames(HSADJUSTMENTS)<-colnames(HSBASELINE)
+colnames(HSADJUSTMENTS)[1]<-"SCOUTID"
+View(HSADJUSTMENTS)
+
+#Total- all divisions 
+
+#Scout averages for all reports
+SCOUTTOTAVG<-aggregate(Position_Players[,38:47],list(Position_Players$SCOUT_NAME),mean,na.rm=TRUE)
+View(SCOUTTOTAVG)
+
+#Adjustements needed to bring scouts' average total grades to overall total average (again defintely an easier way to do this)
+TOTBASELINE<-colMeans(Position_Players[38:47],na.rm=TRUE)
+View(TOTBASELINE)
+TOTBASELINE<-t(TOTBASELINE)
+Placeholder<-0.01
+TOTBASELINE<-cbind(Placeholder,TOTBASELINE)
+TOTBASELINE<-as.numeric(TOTBASELINE)
+SCOUTTOTAVG[,2]<-as.numeric(SCOUTTOTAVG[,2])
+SCOUTTOTAVG[,3]<-as.numeric(SCOUTTOTAVG[,3])
+SCOUTTOTAVG[,4]<-as.numeric(SCOUTTOTAVG[,4])
+SCOUTTOTAVG[,5]<-as.numeric(SCOUTTOTAVG[,5])
+SCOUTTOTAVG[,6]<-as.numeric(SCOUTTOTAVG[,6])
+SCOUTTOTAVG[,7]<-as.numeric(SCOUTTOTAVG[,7])
+SCOUTTOTAVG[,8]<-as.numeric(SCOUTTOTAVG[,8])
+SCOUTTOTAVG[,9]<-as.numeric(SCOUTTOTAVG[,9])
+SCOUTTOTAVG[,10]<-as.numeric(SCOUTTOTAVG[,10])
+SCOUTTOTAVG[,11]<-as.numeric(SCOUTTOTAVG[,11])
+View(TOTBASELINE)
+
+
+
+TOTADJ1<-SCOUTTOTAVG[,2]-TOTBASELINE[1,2]
+TOTADJ2<-SCOUTTOTAVG[,3]-TOTBASELINE[1,3]
+TOTADJ3<-SCOUTTOTAVG[,4]-TOTBASELINE[1,4]
+TOTADJ4<-SCOUTTOTAVG[,5]-TOTBASELINE[1,5]
+TOTADJ5<-SCOUTTOTAVG[,6]-TOTBASELINE[1,6]
+TOTADJ6<-SCOUTTOTAVG[,7]-TOTBASELINE[1,7]
+TOTADJ7<-SCOUTTOTAVG[,8]-TOTBASELINE[1,8]
+TOTADJ8<-SCOUTTOTAVG[,9]-TOTBASELINE[1,9]
+TOTADJ9<-SCOUTTOTAVG[,10]-TOTBASELINE[1,10]
+TOTADJ10<-SCOUTTOTAVG[,11]-TOTBASELINE[1,11]
+TOTADJUSTMENTS<-cbind(SCOUTTOTAVG$Group.1,-TOTADJ1,-TOTADJ2,-TOTADJ3,-TOTADJ4,-TOTADJ5,-TOTADJ6,-TOTADJ7,-TOTADJ8,-TOTADJ9,-TOTADJ10)
+colnames(TOTADJUSTMENTS)<-colnames(TOTBASELINE)
+colnames(TOTADJUSTMENTS)[1]<-"SCOUTID"
+View(TOTADJUSTMENTS)
+
