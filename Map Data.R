@@ -105,11 +105,11 @@ Tigers <- subset(Draftees, Draftees$`Team Name` == "Tigers")
 
 
 
-####### Wasserman #####
+####### Boras #####
 library(readr)
 Agencies <- read_csv("~/Desktop/CBBSN/CBSN/Agencies.csv")
 
-Wass <- subset(Agencies, Wass$Agency == "Wasserman")
+Boras <- subset(Agencies, Agencies$Agency == "Boras Corporation")
 
 ggwass <- ggplot() + 
 	geom_polygon(data = usa, aes(x=long, y = lat, group = group), fill = "orange", color = "orange") + 
@@ -118,15 +118,15 @@ ggwass
 
 
 
-labswass <- data.frame(
-	lon = Wass$Lon,
-	lat = Wass$Lat,
-	names = c("Wass Clients"),
+labsbor <- data.frame(
+	lon = Boras$Lon,
+	lat = Boras$Lat,
+	names = c("Boras Clients"),
 	stringsAsFactors = FALSE)  
 
 ggwass + 
-	geom_point(data = labswass, aes(x = Wass$Lon, y = Wass$Lat), color = "gold", size = 2) +
-	geom_point(data = labswass, aes(x = Wass$Lon, y = Wass$Lat), color = "black", size = 2)
+	geom_point(data = labsbor, aes(x = Boras$Lon, y = Boras$Lat), color = "gold", size = 2) +
+	geom_point(data = labsbor, aes(x = Boras$Lon, y = Boras$Lat), color = "black", size = 2)
 
 
 ##### Octagon
