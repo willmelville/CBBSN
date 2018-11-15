@@ -1,0 +1,180 @@
+Last Name,First Name,Region,Color,Color2,Size,School Covered (1),School Covered (2),School Covered (3),School Covered (4),School Covered (5),"On_Campus (1 if yes, 0 if no)",Year_In_School (if on campus),Age,lat_school_1,long_school_1
+Horner,Pete,Midwest,Red,blue,1,Bowling Green State University-Main Campus,,,,,,,,41.375513,-83.640896
+Toomey,Chris,Midwest,Red,blue,1,Case Western Reserve University,,,,,,,,41.500812,-81.605769
+Mackie,Theo,Midwest,Red,blue,1,Central Michigan University,Oakland University,Western Michigan University,Eastern Michigan University,,,,,43.591203,-84.77525
+Barta,Cayden,Midwest,Red,blue,1,Concordia University-Saint Paul,Fargo High School,,,,,,,44.95045,-93.155281
+Cach,Brendan,Midwest,Red,blue,1,Eastern Michigan University,,,,,,,,42.245996,-83.624415
+Wilber,Collin,Midwest,Red,blue,1,Eastern Michigan University,University of Michigan-Ann Arbor,Michigan State University,`,,,,,42.245996,-83.624415
+Lantz,Gunner,Midwest,Red,blue,1,Illinois State University,Illinois Wesleyan University,Heartland Community College,,,,,,40.509403,-88.990058
+Gerth,David,Midwest,Red,blue,1,Indiana University-Bloomington,,,,,,,,39.166383,-86.526904
+Bliss,Robert,Midwest,Red,blue,1,Kent State University at Kent,Ashland University,Cuyahoga Community College District,,,,,,41.146653,-81.342533
+Delucchi,Marc,Midwest,Red,blue,1,Kenyon College,Mount Vernon Nazarene University,,,,,,,40.374408,-82.397977
+Horning,Andrew,Midwest,Red,blue,1,Kirkwood Community College,university of iowa,,,,,,,41.911268,-91.651172
+Mitchell,Owen,Midwest,Red,blue,1,Miami University-Oxford,,,,,,,,39.509642,-84.731821
+Garcia,George,Midwest,Red,blue,1,Moraine Valley Community College,South Suburban College,Joliet Junior College,,,,,,41.694613,-87.836915
+Teske,Zach,Midwest,Red,blue,1,North Central University,College of DuPage,,,,,,,44.969389,-93.261429
+Peterson,Eric,Midwest,Red,blue,1,North Dakota State University-Main Campus,West Fargo High School,Fargo North High School,Fargo Davies High School,Fargo South High School,,,,46.893127,-96.800838
+Merrill,Will,Midwest,Red,blue,1,Northwood University,Saginaw Valley State University,,,,,,,43.628996,-84.276276
+Barrientz,Antonio,Midwest,Red,blue,1,Oakton Community College,Trinity International University-Illinois,,,,,,,42.061893,-87.880644
+Riggs,Charlie,Midwest,Red,blue,1,Ohio State University-Main Campus,,,,,,,,39.998389,-83.009001
+Enders,Kade,Midwest,Red,blue,1,Ohio State University-Main Campus,Capital University,Ohio Dominican University,,,,,,39.998389,-83.009001
+Johnson,Matthew,Midwest,Red,blue,1,Ohio University-Main Campus,,,,,,,,39.326798,-82.100985
+Cuva,Michael,Midwest,Red,blue,1,St. Ignatius,Saint Edward's University,Cuyahoga Community College District,,,,,,41.50555,-81.691498
+Switzer,Brian,Midwest,Red,blue,1,University of Cincinnati-Main Campus,Xavier University,Northern Kentucky University,,,,,,39.131159,-84.51428
+Cummings,Alton,Midwest,Red,blue,1,University of Evansville,University of Southern Indiana,,,,,,,37.969955,-87.531963
+Frey,Robet,Midwest,Red,blue,1,University of Illinois at Chicago,Kankakee Community College,Illinois Institute of Technology,,,,,,41.872651,-87.651145
+Barry,Kyle,Midwest,Red,blue,1,University of Illinois at Urbana-Champaign,Parkland College,,,,,,,40.108864,-88.230309
+Barry,David,Midwest,Red,blue,1,University of Indianapolis,Butler University,,,,,,,39.709671,-86.134747
+Osnacz,Anthony,Midwest,Red,blue,1,University of Iowa,,,,,,,,41.661935,-91.536425
+Dabaja,Shbeib,Midwest,Red,blue,1,University of Michigan-Ann Arbor,Michigan State University,,,,,,,42.275921,-83.742769
+Moran,Tommy,Midwest,Red,blue,1,University of Minnesota-Twin Cities,St Thomas University,,,,,,,44.977886,-93.235352
+Gropp,Reagan,Midwest,Red,blue,1,University of Nebraska at Omaha,Norris High School,Pius X High School,,,,,,41.257746,-96.010797
+Bailey,Preston,Midwest,Red,blue,1,University of Northern Iowa,,,,,,,,42.514923,-92.459703
+Knutsen,Dylan,Midwest,Red,blue,1,University of Notre Dame,Andrean High School,Valparaiso University,,,,,,41.703058,-86.238959
+Niese,Corbin,Midwest,Red,blue,1,University of Toledo,,,,,,,,41.660572,-83.614714
+Cervantes-Kerwin,Andrew,Midwest,Red,blue,1,University of Wisconsin-Milwaukee,,,,,,,,43.076848,-87.880488
+Dove,Devin,Midwest,Red,blue,1,Western Michigan University,,,,,,,,42.282589,-85.61512
+Lubor*summer scout,Jackson,Midwest,Red,blue,1,,,,,,,,,,
+Medina,Liam,Northeast,Cyan,blue,1,Amherst College,University of Massachusetts-Amherst,Western New England University,Springfield College,American International College,,,,42.372459,-72.518493
+Hudson,Connor,Northeast,Cyan,blue,1,Assumption College,Bentley University,Clark University,,,,,,42.295435,-71.828387
+Argenziano,Anthony,Northeast,Cyan,blue,1,Barnard College,,,,,,,,40.809137,-73.964027
+Wyman,Jim,Northeast,Cyan,blue,1,Bentley University,Worcester State University,Assumption College,College of the Holy Cross,,,,,42.388798,-71.220148
+Frometa,Justin,Northeast,Cyan,blue,1,Boston College,American International College,Tufts University,Northeastern University,University of Massachusetts-Amherst,,,,42.337688,-71.171488
+DeMild,Derek,Northeast,Cyan,blue,1,Boston College,Bentley University,Harvard University,College of the Holy Cross,Northeastern University,,,,42.337688,-71.171488
+Leung,Gerry,Northeast,Cyan,blue,1,Boston College,Harvard University,Northeastern University,Brookline High School,Newton South High School,,,,42.337688,-71.171488
+Dorazio,Nick,Northeast,Cyan,blue,1,Boston College,Newbury College,Lesley University,,,,,,42.337688,-71.171488
+Hefele,Jeremy,Northeast,Cyan,blue,1,Chestnut Hill College,Cairn University-Langhorne,Gwynedd Mercy University,,,,,,40.08678,-75.228742
+DiCostanzo,Nick,Northeast,Cyan,blue,1,College of Staten Island CUNY,Wagner College,St John's University-New York,Seton Hall University,Rider University,,,,40.601831,-74.14849
+Delzotto,Andrew,Northeast,Cyan,blue,1,College of the Holy Cross,,,,,,,,42.238942,-71.808627
+Rosenquist,Chase,Northeast,Cyan,blue,1,Delaware State University,Delaware Technical Community College-Central Office,University of Maryland Eastern Shore,Tufts University,University of Massachusetts-Amherst,,,,39.187173,-75.54053
+Deforge,Hunter,Northeast,Cyan,blue,1,Eastern Mennonite University,University of Richmond,Virginia Commonwealth University,University of Virginia-Main Campus,James Madison University,,,,38.471134,-78.880326
+Haines,Matthew,Northeast,Cyan,blue,1,Gannon University,Mercyhurst University,Slippery Rock University of Pennsylvania,Pennsylvania State University-Penn State Erie-Behrend College,St Bonaventure University,,,,42.128403,-80.087166
+LeMaster,Andrew,Northeast,Cyan,blue,1,George Washington University,University of Mary Washington,George Mason University,University of Richmond,Virginia Commonwealth University,0,Fall 2019 (Online classes),24,38.89865,-77.047871
+Borucki,Ben,Northeast,Cyan,blue,1,Georgetown University,George Washington University,University of Maryland-College Park,,,,,,38.908809,-77.073463
+Mounce,Tyler,Northeast,Cyan,blue,1,Le Moyne College,SUNY at Binghamton,SUNY Cortland,SUNY College at Oswego,Rochester Institute of Technology,,,,43.047316,-76.088449
+Karins,Thomas,Northeast,Cyan,blue,1,Le Moyne College,Canisius College,SUNY College at Brockport,,,,,,43.047316,-76.088449
+Franco,Anthony,Northeast,Cyan,blue,1,Massachusetts Institute of Technology,Northeastern University,Suffolk University,,,,,,42.360095,-71.092115
+Morris,Colby,Northeast,Cyan,blue,1,Middlebury College,,,,,,,,44.009117,-73.176068
+Roszkowski,Jesse,Northeast,Cyan,blue,1,Montclair State University,Don Bosco Prep,William Paterson University of New Jersey,Ramapo College of New Jersey,,,,,40.859233,-74.199455
+Majerowicz,Daniel,Northeast,Cyan,blue,1,Mount St Mary's University,Towson University,University of Maryland-Baltimore County,,,,,,39.680632,-77.35222
+Latner,Max,Northeast,Cyan,blue,1,Rutgers University-New Brunswick,Princeton University,The College of New Jersey,,,,,,40.498769,-74.446251
+Favo,Brad,Northeast,Cyan,blue,1,Rutgers University-New Brunswick,Ramapo College of New Jersey,Seton Hall University,,,,,,40.498769,-74.446251
+Penman,Zachary,Northeast,Cyan,blue,1,Saint Joseph's University,Villanova University,West Chester University of Pennsylvania,La Salle University,,,,,39.994442,-75.238343
+Nadel,Seth,Northeast,Cyan,blue,1,Seton Hall University,Rutgers University-New Brunswick,,,,,,,40.742859,-74.248753
+Derico,Sam,Northeast,Cyan,blue,1,Siena College,SUNY at Albany,The College of Saint Rose,,,,,,42.717602,-73.7526
+Studley,Christopher,Northeast,Cyan,blue,1,St John's University-New York,LIU Brooklyn,,,,,,,40.722523,-73.796104
+Liambiaso,Mike,Northeast,Cyan,blue,1,Stony Brook University,Farmingdale State College,St John's University-New York,Hofstra University,,,,,40.91476,-73.12046
+Smith,Nicholas,Northeast,Cyan,blue,1,Stony Brook University,Suffolk County Community College,College of St Joseph,,,,,,40.91476,-73.12046
+Conti,Richard,Northeast,Cyan,blue,1,Swarthmore College,,,,,,,,39.905159,-75.354278
+Herkert,Michael,Northeast,Cyan,blue,1,Towson University,Loyola University Maryland,,,,,,,39.393622,-76.611164
+Kyle,Tommy,Northeast,Cyan,blue,1,Towson University,University of Maryland-Baltimore County,,,,,,,39.393622,-76.611164
+Carrier,Tim,Northeast,Cyan,blue,1,University of Connecticut,Eastern Connecticut State University,,,,,,,41.809098,-72.249948
+Wilson,Duncan,Northeast,Cyan,blue,1,University of Maryland-College Park,Catholic University of America,,,,,,,38.988178,-76.944721
+Moore,Scott,Northeast,Cyan,blue,1,University of Pittsburgh-Pittsburgh Campus,,,,,,,,40.444502,-79.954692
+Simon,Jonah,Northeast,Cyan,blue,1,University of Pittsburgh-Pittsburgh Campus,Slippery Rock University of Pennsylvania,,,,,,,40.444502,-79.954692
+Sementelli,Ethan,Northeast,Cyan,blue,1,University of Virginia-Main Campus,Old Dominion University,,,,,,,38.035665,-78.503428
+Corbitt,Will,Northeast,Cyan,blue,1,West Virginia University,,,,,,,,39.634371,-79.954391
+Griffin,Bill,Southeast,Green,blue,1,Appalachian State University,Wilkes Community College,Caldwell Community College and Technical Institute,Boone HS,,,,23,36.214844,-81.680234
+Raisanen,Justin,Southeast,Green,blue,1,Auburn University,Columbus State University,Auburn High School,Opelika High School,,,,29,32.599378,-85.488258
+Meyer,Kenneth,Southeast,Green,blue,1,Belmont Abbey College,Queens University of Charlotte,Natinos Ford High School,Fort Mill High School,South Mecklenburg High School,,,53,35.260651,-81.041315
+Anders,Jacob,Southeast,Green,blue,1,College of Charleston,Citadel Military College of South Carolina,Charleston Southern University,Wando High School,West Ashley High School,,,22,32.783142,-79.937251
+Gray,Connor,Southeast,Green,blue,1,Daytona State College,University of Central Florida,Stetson University,Bethune-Cookman University,Rollins College,,,18,29.202286,-81.051266
+Schiff,Daniel,Southeast,Green,blue,1,Elon University,University of North Carolina at Greensboro,North Carolina A & T State University,Guilford College,Greensboro College,,,19,36.104149,-79.505632
+Bagnardi,Robbie,Southeast,Green,blue,1,Florida Agricultural and Mechanical University,Florida State University,Tallahassee Community College,,,,,26,30.428504,-84.290226
+Ambrose,Dominic,Southeast,Green,blue,1,Florida Atlantic University,Dwyer HS,Jupiter HS,Palm Beach Atlantic University,,,,39,26.372421,-80.102978
+Gudelis,Lukas,Southeast,Green,blue,1,Florida International University,University of Miami,Miami Palmetto Senior High School,Christopher Columbus High School,,,,20,25.757111,-80.377591
+Johnson,Greg,Southeast,Green,blue,1,Florida State University,Tallahassee Community College,Florida Agricultural and Mechanical University,Leon High School,Chiles High School,,,38,30.440756,-84.291921
+Dagostino,Dave,Southeast,Green,blue,1,Georgia Institute of Technology-Main Campus,Georgia State University,Mercer University,Georgia Gwinnett College,,,,45,33.77242,-84.394832
+Rainey,Kasen,Southeast,Green,blue,1,Georgia Institute of Technology-Main Campus,University of North Georgia,University of Georgia,Kennesaw State University,,,,,33.77242,-84.394832
+Kennedy,Scott,Southeast,Green,blue,1,Georgia State University,Georgia Institute of Technology-Main Campus,Kennesaw State University,University of Georgia,,,,45,33.7527,-84.38667
+Davidson,Chris,Southeast,Green,blue,1,Middle Tennessee State University,Tennessee Technological University,,,,,,28,35.848005,-86.360618
+Brady,Lauren,Southeast,Green,blue,1,Mississippi State University,,,,,,,20,33.454852,-88.790139
+Reeves,Trever,Southeast,Green,blue,1,North Carolina State University at Raleigh,Duke University,University of North Carolina at Chapel Hill,Sanderson High School,Broughton High School,,,25,35.785111,-78.674517
+Neild,Kristopher,Southeast,Green,blue,1,Palm Beach State College,Jupiter High School,Dwyer High School,Plam Beach Gardens High School,,,,31,26.61256,-80.08653
+McDonnell,Justin,Southeast,Green,blue,1,Stetson University,University of Central Florida,Dr. Phillips HS,,,,,42,29.035475,-81.300746
+Rydecki,Ben,Southeast,Green,blue,1,The University of Alabama,Shelton State Community College,Stillman College,Hillcrest HS,Tuscaloosa Academy,,,,33.2144,-87.545766
+Ramsey,Kelly,Southeast,Green,blue,1,The University of Tennessee-Knoxville,Walters State Community College,Lincoln Memorial University,,,,,,35.952082,-83.925852
+Metzger,Clay,Southeast,Green,blue,1,University of Alabama at Birmingham,,,,,,,22,33.505697,-86.799345
+Finley,Trent,Southeast,Green,blue,1,University of Arkansas at Little Rock,Benton High School,Bryant High School,Mayflower High School,Sheridan High School,,,24,34.726644,-92.341835
+Traywick,Peyton,Southeast,Green,blue,1,University of Central Arkansas,,,,,,,,35.077945,-92.457672
+Arthurs,Joshua,Southeast,Green,blue,1,University of Florida,Santa Fe College,Bucholz High School,Gainesville High School,Eastside High School,,,20,29.64629,-82.347911
+Young,Bobby,Southeast,Green,blue,1,University of Kentucky,,,,,,,55,38.038911,-84.504747
+Alcantar,Alan,Southeast,Green,blue,1,University of Miami,Florida International University,Miami Dade College,,,,,21,25.72126,-80.278662
+Filipich,Nicholas,Southeast,Green,blue,1,University of Mississippi,,,,,,,20,34.365529,-89.537434
+Pecorella,Dominic,Southeast,Green,blue,1,University of North Carolina at Charlotte,East Lincoln HS,Hough HS,Lake Norman Charter,Southlake Christian Academy,,,20,35.306022,-80.730919
+Janeiro,Roman,Southeast,Green,blue,1,University of North Florida,Jacksonville University,Providence School of Jacksonville,Sandalwood High School,Fletcher High School,,,25,30.270917,-81.507853
+Dyar,Tyler,Southeast,Green,blue,1,University of South Alabama,University of Mobile,Bishop State Community College,,,,,24,30.696033,-88.178711
+Quolas,Jamie,Southeast,Green,blue,1,University of South Florida-Main Campus,The University of Tampa,Hillsborough Community College,Riverview High School,East Bay High School,,,,28.061458,-82.413232
+Harrington,William,Southeast,Green,blue,1,University of Southern Mississippi,Pearl River Community College,Mississippi Gulf Coast Community College,Oak Grove High School,Petal High School,,,20,31.32661,-89.331236
+Tomarchio,Dannelle,Southeast,Green,blue,1,Vanderbilt University,Tennessee State University,Belmont University,Lipscomb University,Goodpasture Christian High School,,,36,36.14659,-86.803369
+Meeks,Alex,Southwest,Orange,blue,1,Arizona State University-Tempe,Brophy College Prep,McClintock High School,Corona Del Sol High School,Chandler High School,,,,33.417721,-111.934383
+Stephens,Eric,Southwest,Orange,blue,1,Avila University,University of Kansas,MCC Longview,Ray-pec HS,Lee’s Summit West,,,,38.912159,-94.591387
+Sanchez,John,Southwest,Orange,blue,1,Baylor University,McLennan Community College,,,,,,,31.545956,-97.119359
+Fleeup,Rob,Southwest,Orange,blue,1,Blue Valley High School,Shawnee Mission High School,University of Kansas,Kansas State University,University of Missouri,,,,39.04344,-94.89511
+Engert,Kurt,Southwest,Orange,blue,1,Cherry Creek HS,Denver East HS,Standley Lake HS,Heritage HS,Mountain Vista HS,,,,39.61721,-104.950813
+Styles,Farley,Southwest,Orange,blue,1,Colleyville Heritage High School,Grapevine High School,Haltom High School,Birdville High School,Richland High School,,,,32.88343,-97.15389
+Elges,CJ,Southwest,Orange,blue,1,Dakota Ridge High School,Columbine High School,D'Evelyn Jr-Sr High School,Bear Creek High School,and Chatfield High School (Denver,,,,39.612652,-105.016197
+Potter,Joshua,Southwest,Orange,blue,1,Francis Howell,Holt,Vianney,Lindenwood University,Missouri Baptist University,,,,38.72898,-90.62732
+Hutchison,Ryan,Southwest,Orange,blue,1,Grand Canyon University,Phoenix College,,,,,,,33.512172,-112.129917
+Serna,Zachary,Southwest,Orange,blue,1,Grand Canyon University,Arizona State University,Glendale Community College,Mountain View High School,Sandra Day O'Connor High School,,,,33.512172,-112.129917
+Clark,Canyon,Southwest,Orange,blue,1,Harris-Stowe State University,Webster University,University of Missouri St. Louis,St. Louis community college,St. Louis university,,,,38.631744,-90.224288
+Woodward,Dean,Southwest,Orange,blue,1,Highland Park HS,Lake Highlands HS,Southern Methodist University,Richland College,Texas Christian University,,,,32.85158,-96.79495
+Farrell,Bryan,Southwest,Orange,blue,1,Horizon High School,Mountain Ridge High School,Mountain View,Pinnacle High School,Chaparral High School,,,,33.494171,-111.926048
+Mino,Matthew,Southwest,Orange,blue,1,Oklahoma State University-Main Campus,University of Oklahoma,Stillwater High School,,,,,,36.123085,-97.069743
+Light,Ronnie,Southwest,Orange,blue,1,Pittsburg Senior High School,St. Mary's Colgan High School,Pittsburg State University,Missouri Southern State University,Labette County Community College,,,,37.41111,-94.704811
+Keeton,Kevin,Southwest,Orange,blue,1,Reagan High School,Smithson Valley,Churchill High School,OLLU,The University of Texas at San Antonio,,,,29.760427,-95.369804
+Endres,MaddyKate,Southwest,Orange,blue,1,Saint Louis University,Washington University St. Louis,Harris Stowe,Webster University,Missouri Baptist University,,,,38.636516,-90.23343
+Droegemeier,Eric,Southwest,Orange,blue,1,Schreiner University,Angelo State University,,,,,,,30.03108,-99.131076
+Blackmon,Jerrod,Southwest,Orange,blue,1,Stephen F Austin State University,Angelina College,Nacogdoches High School,Lufkin High School,Central Heights School,,,,31.621056,-94.64908
+Farries,Koby,Southwest,Orange,blue,1,Texas A & M University-College Station,,,,,,,,30.618726,-96.336475
+Montgomery,Cameron,Southwest,Orange,blue,1,Texas Christian University,Dallas Baptist University,Highland Park High School,Caroll (Southlake),Brookhaven College,,,,32.709568,-97.361537
+Graff,Reed,Southwest,Orange,blue,1,Texas State University,,,,,,,,29.889202,-97.936392
+Dotson,Patrick,Southwest,Orange,blue,1,Texas Tech University,Lubbock Christian University,Wayland Baptist University,Lubbock Cooper High School,Frenship High School,,,,33.583448,-101.874783
+Cunningham,Chad,Southwest,Orange,blue,1,Tyler Junior College,University of Texas-Tyler,ETBU,Stephen F. Austin University,Longview ISD,,,,32.336015,-95.284129
+Escalante,Evan,Southwest,Orange,blue,1,University of Houston,,,,,,,,29.720393,-95.343537
+Owen,Kyle,Southwest,Orange,blue,1,University of Houston,Rice University,Texas Southern,Texas Christian University,UT Arlington,,,,29.720393,-95.343537
+Stevenson,Garrett,Southwest,Orange,blue,1,University of Tulsa,Oral Roberts University,Rogers State University,Union High School,Jenks High School.,,,,36.151887,-95.945175
+Stockmann,Andrew,Southwest,Orange,blue,1,Wichita State University,Friends University,,,,,,,37.716484,-97.296733
+Puzin,Joey,West Coast,Purple,blue,1,Basic High School,Palo Verde High School,Bishop Gorman High School,University of Nevada-Las Vegas,College of Southern Nevada,0,,,36.039524,-114.98172
+Harringer,Dylan,West Coast,Purple,blue,1,Bishop Amat High School,South HIlls High School,Mt San Antonio College,Rio Hondo College,Citrus College,0,,,34.0201,-117.95262
+Melville,Will,West Coast,Purple,blue,1,Brigham Young University-Provo,Provo High School,Utah Valley University,Timpview High School,University of Utah,1,,,40.250851,-111.649281
+Pop,Andrew,West Coast,Purple,blue,1,California State Polytechnic University-Pomona,University of Southern California,California State University-Los Angeles,East Los Angeles College,Whittier College,1,,,34.054273,-117.819019
+Donahue,Ben,West Coast,Purple,blue,1,California State University-Bakersfield,Bakersfield College,Stockdale High School,Bakersfield High School,Centennial High School,0,,,35.350005,-119.104711
+Gober,Greg,West Coast,Purple,blue,1,California State University-Sacramento,William Jessup University,Sierra College,Sacramento City College,Jesuit High School,0,,,38.55745,-121.42194
+Morales,Stephen,West Coast,Purple,blue,1,Charter Oak High School,Northview High School,Covina High School,West Covina High School,Glendora High School,0,,,34.08625,-117.890137
+Comar,Ben,West Coast,Purple,blue,1,College Park High School,Diablo Valley College,Acalanes High School,De La Salle High School,Concord High School,0,,,37.943489,-122.072998
+Cook,Rachel,West Coast,Purple,blue,1,Cypress College,Simi Valley High School,Saddleback College,Mt San Antonio College,,0,,,33.827625,-118.023889
+Barber,James,West Coast,Purple,blue,1,De La Salle High School,Monte Vista High School,California State University-East Bay,Holy Names University,,0,,,37.977978,-122.031075
+Madden,Jackson,West Coast,Purple,blue,1,Gonzaga University,Washington State University,Spokane Community College,Eastern Washington University,,1,,,47.668144,-117.403062
+Lazarus,Weston,West Coast,Purple,blue,1,Humboldt State University,College of the Redwoods,Eureka High School,Arcata High School,McKinleyville High School,1,,,40.8741,-124.0814
+Schumacher,Jace,West Coast,Purple,blue,1,Montana State University-Billings,Rocky Mountain College,,,,1,,,45.796896,-108.523009
+Rauterkus,Jon,West Coast,Purple,blue,1,Saddleback College,Chapman University,San Clemente High School,Dana Hills High School,San Juan Hills High School,0,,,33.551925,-117.664876
+Pickett,Ben,West Coast,Purple,blue,1,Seattle University,University of Washington-Seattle Campus,Shoreline Community College,Redmond High School,Lakeside High School,0,,,47.610138,-122.3197
+Morgan,Russell,West Coast,Purple,blue,1,University of California-Los Angeles,University of Southern California,Loyola Marymount University,Redondo Union High School,Orange Lutheran High School,0,,,34.068892,-118.443901
+Brunnekant,Dylan,West Coast,Purple,blue,1,University of California-Los Angeles,Loyola Marymount University,Mira Costa High School,St. John Bosco High School,Junipero Serra High School,0,,,34.068892,-118.443901
+Semien,Daryl,West Coast,Purple,blue,1,University of California-Los Angeles,University of Southern California,Loyola Marymount University,California State University-Los Angeles,California State University-Northridge,0,,,34.068892,-118.443901
+Murray,Curtis,West Coast,Purple,blue,1,University of California-Santa Barbara,Dos Pueblos High School,San Marcos High School,Santa Barbara City College,Westmont College,1,,,34.416297,-119.846426
+Cascardo,John,West Coast,Purple,blue,1,University of Nevada-Las Vegas,College of Southern Nevada,Bishop Gorman High School,Coronado High School,Basic High School,1,,,36.106994,-115.141153
+Masterson,Travis,West Coast,Purple,blue,1,University of Nevada-Reno,Reno High School,Spanish Springs High School,Bishop Manague High School,Demonte Ranch High School,0,,,39.543642,-119.815377
+Weikel,Chris,West Coast,Purple,blue,1,University of Oregon,Oregon State University,Lane Community College,,,1,,,44.045146,-123.075792
+Williams,Kent,West Coast,Purple,blue,1,University of Oregon,,,,,1,,,44.045146,-123.075792
+Schane,Adam,West Coast,Purple,blue,1,University of Oregon,Lane Community College,Lane Community College,South Eugene High School,Springfield High School,1,,,44.045146,-123.075792
+McInroy,Jarod,West Coast,Purple,blue,1,University of Portland,Concordia University-Portland,Sky View High School,Columbia River High School,Mt Hood Community College,0,,,45.571807,-122.726859
+Anderson,Dylan,West Coast,Purple,blue,1,University of San Francisco,San Francisco State University,Academy of Art University,,,0,,,37.775564,-122.450977
+Solomon,Brett,West Coast,Purple,blue,1,University of Southern California,University of California-Los Angeles,Notre Dame High School,St. John Bosco High School,Loyola High School,0,,,34.021281,-118.284169
+Bristow,Kenny,West Coast,Purple,blue,1,University of Utah,Brigham Young University-Provo,Utah Valley University,Salt Lake City Community College,Wasatch High School,0,,,40.762484,-111.846044
+Clayton,Nicholas,West Coast,Purple,blue,1,University of Washington-Seattle Campus,Lake Washington High School,Juanita High School,Bellevue College,Redmond High School,0,,,47.656213,-122.313115
+Hohu,Jonah,West Coast,Purple,blue,1,Washington State University,Pullman High School,Colfax High School,Moscow High School,,1,,,46.730448,-117.158168
+Bermudez,Andrey,International,deeppink,red,2,"Carracas, Venezuela",,,,,,,,10.50278,-66.91905
+Carvajal,Carlos,International,deeppink,red,2,"Santo Domingo, Dominican Republic",,,,,,,,18.486057,-69.931213
+Blanco,Chrystiam,International,deeppink,red,2,"Leon, Nicaragua",,,,,,,,12.43635,-86.878082
+Medina,Eric,International,deeppink,red,2,"Barranquillo, Colombia",,,,,,,,10.96104,-74.80096
+Glass,Jersey,International,deeppink,red,2,"Santo Domingo, Dominican Republic",,,,,,,,18.55,-69.95
+Yamakazi,Kaz,International,deeppink,red,2,"Tokyo, Japan",,,,,,,,35.689487,139.691711
+Tapia,Moises,International,deeppink,red,2,"Santo Domingo, Dominican Republic",,,,,,,,18.6,-69.92
+Heron,Ricardo,International,deeppink,red,2,"Panama City, Panama",,,,,,,,8.982379,-79.519867
+Lo,Nick,Canada,yellow,red,2,"Scarborough, Ontario",,,,,,,,43.774578,-79.252357
+Boatto,Chris,Canada,yellow,red,2,"Toronto, Ontario",,,,,,,,43.653225,-79.383186
+Seguin,Dan,Canada,yellow,red,2,"Toronto, Ontario",,,,,,,,43.68,-79.4
+Skavinsky,Jordan,Canada,yellow,red,2,"Vancouver, British Columbia",,,,,,,,49.28273,-123.120735
+Roach,Brendan,Canada,yellow,red,2,Quebec,,,,,,,,45.50169,-73.567253
