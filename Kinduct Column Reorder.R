@@ -1,8 +1,12 @@
 library(dplyr)
 library(tidyr)
+library(readr)
+library(readxl)
 
 #Read File
 Duct <- read.csv("Dada.csv")
+
+# Data <- read_xlsx("~/Downloads/CBScout-Export-Full-8.xlsx")
 
 #Reorder vars according to import sheet (Column Names were being fussy,
 #so just reordered by number)
