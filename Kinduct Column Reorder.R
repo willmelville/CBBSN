@@ -7,7 +7,7 @@ require(reshape)
 library(tibble)
 
 #Read File
-Data <- read_csv("~/Downloads/CBScout-Export-Full-3.csv")
+Data <- read_csv("~/Downloads/....csv")
 Data = separate(data = Data, col = Name, into = c("Last", "First"), sep = "\\, ")
 n<-dim(Data)[1]
 Data<-Data[1:(n-1),]
