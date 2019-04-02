@@ -7,7 +7,7 @@ require(reshape)
 library(tibble)
 
 #Read File
-Data <- read_xlsx("~/Downloads/CBScout-Export-Full.xlsx")
+Data <- read_csv("~/Downloads/CBScout-Export-Full-3.csv")
 Data = separate(data = Data, col = Name, into = c("Last", "First"), sep = "\\, ")
 n<-dim(Data)[1]
 Data<-Data[1:(n-1),]
@@ -44,3 +44,4 @@ KinductPitcher <- KinductPitcher %>%
 #files are written as csv
 write.csv(KinductHitter,"~/Desktop/KinductHitter.csv")
 write.csv(KinductPitcher,"~/Desktop/KinductPitcher.csv")
+
